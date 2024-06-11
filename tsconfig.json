@@ -12,12 +12,16 @@
     "module": "ESNext",
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "Node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@utils/*": ["./src/utils/*"]
+    },
 
     /* Linting */
     "strict": true,

@@ -31,7 +31,7 @@
       "warn",
       {
         "newlinesBetween": "never",
-        "groups": ["module", ["parent", "sibling", "index"]],
+        "groups": ["module", "/^@src/", ["parent", "sibling", "index"]],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ]
